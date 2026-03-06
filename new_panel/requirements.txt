@@ -8,6 +8,7 @@ python-multipart
 python-socketio
 aiofiles
 requests
+aiohttp
 pydantic-settings
 python-jwt
 cryptography
