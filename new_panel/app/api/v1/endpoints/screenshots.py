@@ -15,6 +15,8 @@ from app.core.config import settings
 # Screenshots directory
 DATA_DIR = settings.DATA_DIR
 
+router = APIRouter()
+
 @router.post("/upload/{build_key}")
 async def upload_screenshot(
     build_key: str,
