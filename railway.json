@@ -1,10 +1,10 @@
 {
-  "$schema": "https://railway.app/railway.schema.json",
-  "build": {
-    "builder": "NIXPACKS",
-    "watchPatterns": ["new_panel/**"]
-  },
-  "deploy": {
-    "rootDirectory": "new_panel"
-  }
+    "$schema": "https://railway.app/railway.schema.json",
+    "build": {
+        "builder": "DOCKERFILE",
+        "dockerfilePath": "Dockerfile",
+        "watchPatterns": [
+            "new_panel/**"
+        ]
+    }
 }
