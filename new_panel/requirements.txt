@@ -12,3 +12,4 @@ aiohttp
 pydantic-settings
 python-jwt
 cryptography
+jinja2
